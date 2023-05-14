@@ -1,0 +1,114 @@
+<VRTDataset rasterXSize="1000" rasterYSize="1000">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / UTM zone 48N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",105],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32648"]]</SRS>
+  <GeoTransform>  6.2445745416107646e+05,  1.0000000000000000e+01,  0.0000000000000000e+00,  1.0342873112105692e+06,  0.0000000000000000e+00, -1.0000000000000000e+01</GeoTransform>
+  <VRTRasterBand dataType="UInt16" band="1">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/duy/local/study/deep_learning/DL_2023/data/rst_dl/aerosols/true/19000-16000.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="UInt16" BlockXSize="1000" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="2">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/duy/local/study/deep_learning/DL_2023/data/rst_dl/blue/true/19000-16000.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="UInt16" BlockXSize="1000" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="3">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/duy/local/study/deep_learning/DL_2023/data/rst_dl/green/true/19000-16000.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="UInt16" BlockXSize="1000" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="4">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/duy/local/study/deep_learning/DL_2023/data/rst_dl/red/true/19000-16000.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="UInt16" BlockXSize="1000" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="5">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/duy/local/study/deep_learning/DL_2023/data/rst_dl/rege1/true/19000-16000.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="UInt16" BlockXSize="1000" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="6">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/duy/local/study/deep_learning/DL_2023/data/rst_dl/rege2/true/19000-16000.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="UInt16" BlockXSize="1000" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="7">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/duy/local/study/deep_learning/DL_2023/data/rst_dl/rege3/true/19000-16000.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="UInt16" BlockXSize="1000" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="8">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/duy/local/study/deep_learning/DL_2023/data/rst_dl/nir/true/19000-16000.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="UInt16" BlockXSize="1000" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="9">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/duy/local/study/deep_learning/DL_2023/data/rst_dl/swir1/true/19000-16000.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="UInt16" BlockXSize="1000" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="10">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/duy/local/study/deep_learning/DL_2023/data/rst_dl/swir2/true/19000-16000.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="UInt16" BlockXSize="1000" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>

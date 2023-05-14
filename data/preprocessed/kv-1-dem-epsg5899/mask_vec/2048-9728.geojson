@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::5899" } },
+"features": [
+{ "type": "Feature", "properties": { "Layer": "Level 10", "PaperSpace": null, "SubClasses": null, "Linetype": null, "EntityHandle": null, "Text": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 441392.267058004450519, 1177872.708695476641878, 0.0 ], [ 441400.997599989466835, 1177871.06543085211888, 0.0 ], [ 441398.258825615164824, 1177856.432550623547286, 0.0 ], [ 441389.399728914897423, 1177858.131708603119478, 0.0 ], [ 441392.267058004450519, 1177872.708695476641878, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "Layer": "Level 10", "PaperSpace": null, "SubClasses": null, "Linetype": null, "EntityHandle": null, "Text": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 441378.427863411139697, 1177868.975019390927628, 0.0 ], [ 441362.688294762105215, 1177872.596908767474815, 0.0 ], [ 441364.432167424936779, 1177879.974831571569666, 0.0 ], [ 441379.903447971970309, 1177875.637507256353274, 0.0 ], [ 441378.427863411139697, 1177868.975019390927628, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "Layer": "Level 10", "PaperSpace": null, "SubClasses": null, "Linetype": null, "EntityHandle": null, "Text": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 441361.883430456160568, 1177886.592604753561318, 0.0 ], [ 441358.485114497889299, 1177866.336853054817766, 0.0 ], [ 441350.525900806009304, 1177868.259584452258423, 0.0 ], [ 441354.103075499006081, 1177888.068189314566553, 0.0 ], [ 441361.883430456160568, 1177886.592604753561318, 0.0 ] ] ] } }
+]
+}

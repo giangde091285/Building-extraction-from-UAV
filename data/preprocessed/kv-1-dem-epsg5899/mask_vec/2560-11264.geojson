@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::5899" } },
+"features": [
+{ "type": "Feature", "properties": { "Layer": "Level 10", "PaperSpace": null, "SubClasses": "AcDbEntity:AcDbPolyline", "Linetype": "Continuous", "EntityHandle": "6B4", "Text": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 441466.027315789891873, 1177507.885057124076411, 0.0 ], [ 441466.840999270498287, 1177515.045532369986176, 0.0 ], [ 441511.457588822231628, 1177509.975508296396583, 0.0 ], [ 441511.457588822231628, 1177479.911975380731747, 0.0 ], [ 441455.335335689189378, 1177486.289450156968087, 0.0 ], [ 441458.079923599900212, 1177508.788162227952853, 0.0 ], [ 441466.027315789891873, 1177507.885057124076411, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "Layer": "Level 10", "PaperSpace": null, "SubClasses": "AcDbEntity:AcDbPolyline", "Linetype": "Continuous", "EntityHandle": "6B7", "Text": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 441460.96425217250362, 1177536.175518271978945, 0.0 ], [ 441465.563599171524402, 1177576.605349691351876, 0.0 ], [ 441511.457588822231628, 1177576.605349691351876, 0.0 ], [ 441511.457588822231628, 1177530.431334627093747, 0.0 ], [ 441460.96425217250362, 1177536.175518271978945, 0.0 ] ] ] } }
+]
+}

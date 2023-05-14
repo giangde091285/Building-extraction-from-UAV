@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::5899" } },
+"features": [
+{ "type": "Feature", "properties": { "Layer": "Level 10", "PaperSpace": null, "SubClasses": "AcDbEntity:AcDbPolyline", "Linetype": "Continuous", "EntityHandle": "6A4", "Text": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 441092.955593424092513, 1177295.732590378960595, 0.0 ], [ 441084.481057349010371, 1177295.732590378960595, 0.0 ], [ 441084.481057349010371, 1177299.877747443970293, 0.0 ], [ 441092.955593424092513, 1177299.783539328956977, 0.0 ], [ 441092.955593424092513, 1177295.732590378960595, 0.0 ] ] ] } }
+]
+}

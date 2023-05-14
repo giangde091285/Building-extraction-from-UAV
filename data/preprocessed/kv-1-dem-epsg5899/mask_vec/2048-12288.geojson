@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::5899" } },
+"features": [
+{ "type": "Feature", "properties": { "Layer": "Level 10", "PaperSpace": null, "SubClasses": null, "Linetype": null, "EntityHandle": null, "Text": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 441347.339979595330078, 1177293.687078067101538, 0.0 ], [ 441342.533151101670228, 1177291.540773251326755, 0.0 ], [ 441341.124638566339854, 1177295.386236046208069, 0.0 ], [ 441345.842037692666054, 1177297.241895418148488, 0.0 ], [ 441347.339979595330078, 1177293.687078067101538, 0.0 ] ] ] } }
+]
+}
