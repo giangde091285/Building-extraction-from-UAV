@@ -25,11 +25,13 @@ venv:										## Initiates the venv environment and installs the required packa
 		pip3 install --upgrade pip; \
 		pip3 install -r ./project/requirements.txt; \
 		pip3 install -r ./project/requirements-flake8.txt; \
+		python3 -m ipykernel install --user --name=venv; \
+		pip3 install notebook==6.5.4; \
 	)
 	source venv/bin/activate
 
 
-.PHONY: lint 
+.PHONY: lint
 lint:										## Performs a lint checking.
 	flake8 .
 	black . --check
@@ -40,3 +42,7 @@ format:										## Autoformats the code.
 	autoflake . -r --in-place --remove-all-unused-imports --exclude venv
 	black .
 	isort .
+
+.PHONY: clean
+clean:
+	rm -rf venv
