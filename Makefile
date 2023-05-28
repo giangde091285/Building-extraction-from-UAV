@@ -23,8 +23,8 @@ venv:										## Initiates the venv environment and installs the required packa
 	( \
 		source venv/bin/activate; \
 		pip3 install --upgrade pip; \
-		pip3 install -r requirements.txt; \
-		pip3 install -r requirements-flake10.txt; \
+		pip3 install -r ./project/requirements.txt; \
+		pip3 install -r ./project/requirements-flake8.txt; \
 	)
 	source venv/bin/activate
 
