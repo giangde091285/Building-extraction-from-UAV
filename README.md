@@ -21,7 +21,7 @@ Building a machine learning model to extract building object from UAV imagery
 - `sudo apt install python3.10-venv`
 
 ### Create virtual developing environment
-- `python3 -m venv env (python3 -m venv dl-env,python3 -m venv ds-env)`
+- `python3 -m venv env`
 
 ### Activate virtual developing environment
 -  `source env/bin/activate`
